@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body div {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

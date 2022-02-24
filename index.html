@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image to Matrix</title>
+        <link href="style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h4>Original</h4>
+            <img id="myimage" src="pinus.jpg" width=256 class="image" />    
+        </div>
+        <div>
+            <h4>Grayscale</h4>
+            <canvas id="canvas" class="image"></canvas>    
+        </div>
+        <div>
+            <h4>High Brightness</h4>
+            <canvas id="bright"></canvas>
+        </div>
+        <div>
+            <h4>Low Brightness</h4>
+            <canvas id="dark"></canvas>    
+        </div>
+        <div>
+            <h4>High Contrast</h4>
+            <canvas id="highcontrast"></canvas>
+        </div>
+        <div>
+            <h4>Low Contrast</h4>
+            <canvas id="lowcontrast"></canvas>
+        </div>
+        <div>
+            <h4>Saturated</h4>
+            <canvas id="saturated"></canvas>
+        </div>
+        <div>
+            <h4>Desaturated</h4>
+            <canvas id="desaturated"></canvas>
+        </div>
+
+        <script src="app.js" type="module">
+        </script>
+    </body>
+</html>

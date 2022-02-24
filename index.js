@@ -3,8 +3,8 @@ const imageToMatrix = (img_element) => { //convert image to matrix
     const w = img_element.width   
 
     const canvas = document.createElement('canvas')
-    canvas.width = Math.min(w,512)
-    canvas.height = (canvas.width/w)*h
+    canvas.width = w
+    canvas.height = h
 
     const ctx = canvas.getContext('2d')
     ctx.drawImage(img_element,0,0, canvas.width, canvas.height)
