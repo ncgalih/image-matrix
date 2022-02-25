@@ -18,3 +18,5 @@ argument: \
 transform each pixels of matrix to other value \
 **image_data** : matrix of image \
 **transformer** : callback function(rgba_value)
+
+## Preview: [Open](https://ncgalih.github.io/image-matrix/)
